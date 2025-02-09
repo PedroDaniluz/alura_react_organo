@@ -1,9 +1,12 @@
 .team{
     text-align: center;
     padding: 32px;
+    background: url('../images/fundo.png') center no-repeat;
 }
 
 .team h3 {
+    font-family: 'Prata';
+    font-weight: 400;
     font-size: 32px;
     border-bottom: 4px solid;
     display: inline-block;

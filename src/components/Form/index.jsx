@@ -23,6 +23,7 @@ export default function Form(props) {
         setCargo('');
         setImagem('');
         setTime('');
+        console.log(time);
     }
 
     return(
@@ -55,7 +56,7 @@ export default function Form(props) {
                     label="Time" 
                     itens={props.times.map(time => time.nome)}
                     valor={time}
-                    aoSelecionado={time => setTime(time)}
+                    aoSelecionar={time => setTime(time)}
                 />
                 <Button>
                     Criar card

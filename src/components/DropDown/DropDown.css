@@ -12,8 +12,17 @@
 }
 
 .drop-down label {
-    color: black;
+    color: #212121;
     display: block;
     margin-bottom: 8px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.drop-down select::placeholder {
+    color: #000;
     font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 600;
 }

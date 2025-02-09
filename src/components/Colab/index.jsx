@@ -1,8 +1,9 @@
 import './Colab.css';
 
-export default function Colab({ nome, imagem, cargo, corDeFundo }) {
+export default function Colab({ nome, imagem, cargo, corDeFundo, aoDeletar }) {
     return(
         <div className='colaborador'>
+            <div className='deletar' onClick={aoDeletar}>deletar</div>
             <div className='cabecalho' style={{backgroundColor: corDeFundo}}>
                 <img src={imagem} alt={nome} />
             </div>
